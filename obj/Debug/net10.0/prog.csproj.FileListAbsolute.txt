@@ -1,0 +1,14 @@
+/Users/emelkesten/Desktop/prog/obj/Debug/net10.0/prog.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emelkesten/Desktop/prog/obj/Debug/net10.0/prog.AssemblyInfoInputs.cache
+/Users/emelkesten/Desktop/prog/obj/Debug/net10.0/prog.AssemblyInfo.cs
+/Users/emelkesten/Desktop/prog/obj/Debug/net10.0/prog.csproj.CoreCompileInputs.cache
+/Users/emelkesten/Desktop/prog/bin/Debug/net10.0/prog
+/Users/emelkesten/Desktop/prog/bin/Debug/net10.0/prog.deps.json
+/Users/emelkesten/Desktop/prog/bin/Debug/net10.0/prog.runtimeconfig.json
+/Users/emelkesten/Desktop/prog/bin/Debug/net10.0/prog.dll
+/Users/emelkesten/Desktop/prog/bin/Debug/net10.0/prog.pdb
+/Users/emelkesten/Desktop/prog/obj/Debug/net10.0/prog.dll
+/Users/emelkesten/Desktop/prog/obj/Debug/net10.0/refint/prog.dll
+/Users/emelkesten/Desktop/prog/obj/Debug/net10.0/prog.pdb
+/Users/emelkesten/Desktop/prog/obj/Debug/net10.0/prog.genruntimeconfig.cache
+/Users/emelkesten/Desktop/prog/obj/Debug/net10.0/ref/prog.dll
