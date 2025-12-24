@@ -12,3 +12,4 @@
 /Users/emelkesten/Desktop/prog/obj/Debug/net10.0/prog.pdb
 /Users/emelkesten/Desktop/prog/obj/Debug/net10.0/prog.genruntimeconfig.cache
 /Users/emelkesten/Desktop/prog/obj/Debug/net10.0/ref/prog.dll
+/Users/emelkesten/Desktop/prog/obj/Debug/net10.0/prog.sourcelink.json

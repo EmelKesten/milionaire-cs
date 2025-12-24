@@ -184,70 +184,67 @@ namespace QuizConsoleApp
         public Quiz()
         {
             Questions = new List<Question>()
-            {
-                new Question("What is 2 + 2?",
-                    new List<string>{ "3", "4", "5", "6" }, "4"),
+{
+    new Question("Koliko je 2 + 2?",
+        new List<string>{ "3", "4", "5", "6" }, "4"),
 
-                new Question("What language is this game written in?",
-                    new List<string>{ "Java", "C#", "Python", "JS" }, "C#"),
+    new Question("Koji je glavni grad Bosne i Hercegovine?",
+        new List<string>{ "Mostar", "Banja Luka", "Sarajevo", "Tuzla" }, "Sarajevo"),
 
-                new Question("Which keyword is used for inheritance?",
-                    new List<string>{ "extends", "inherits", ":", "base" }, ":"),
+    new Question("Koje boje je nebo po vedrom danu?",
+        new List<string>{ "Zeleno", "Plavo", "Crveno", "Žuto" }, "Plavo"),
 
-                new Question("What does OOP stand for?",
-                    new List<string>{ "Object Oriented Programming", "Open Office Program", "Order Of Process", "None" },
-                    "Object Oriented Programming"),
+    new Question("Koliko dana ima jedna sedmica?",
+        new List<string>{ "5", "6", "7", "8" }, "7"),
 
-                new Question("Which is a value type?",
-                    new List<string>{ "string", "class", "int", "array" }, "int"),
+    new Question("Koja životinja daje mlijeko?",
+        new List<string>{ "Pas", "Krava", "Kokoš", "Riba" }, "Krava"),
 
-                new Question("Which symbol ends a C# statement?",
-                    new List<string>{ ".", ":", ";", "," }, ";"),
+    new Question("Koje godišnje doba dolazi poslije proljeća?",
+        new List<string>{ "Jesen", "Zima", "Ljeto", "Proljeće" }, "Ljeto"),
 
-                new Question("What does Console.ReadLine() return?",
-                    new List<string>{ "int", "string", "bool", "char" }, "string"),
+    new Question("Koliko sati ima jedan dan?",
+        new List<string>{ "12", "18", "24", "36" }, "24"),
 
-                new Question("Which access modifier is most restrictive?",
-                    new List<string>{ "public", "protected", "internal", "private" }, "private"),
+    new Question("Čime se piše na papiru?",
+        new List<string>{ "Kašikom", "Olovkom", "Viljuškom", "Čašom" }, "Olovkom"),
 
-                new Question("Which keyword allows overriding?",
-                    new List<string>{ "override", "new", "base", "sealed" }, "override"),
+    new Question("Koja planeta je najbliža Suncu?",
+        new List<string>{ "Zemlja", "Mars", "Merkur", "Venera" }, "Merkur"),
 
-                new Question("What is used to store multiple values?",
-                    new List<string>{ "variable", "list", "method", "class" }, "list"),
+    new Question("Koliko nogu ima pauk?",
+        new List<string>{ "6", "8", "10", "12" }, "8"),
 
-                // 10 more
-                new Question("Which method is program entry point?",
-                    new List<string>{ "Start()", "Main()", "Run()", "Init()" }, "Main()"),
+    new Question("Koji je najveći kontinent?",
+        new List<string>{ "Evropa", "Afrika", "Azija", "Australija" }, "Azija"),
 
-                new Question("Which converts string to int safely?",
-                    new List<string>{ "Parse()", "TryParse()", "Convert()", "Cast()" }, "TryParse()"),
+    new Question("Koje je nacionalno piće u BiH?",
+        new List<string>{ "Čaj", "Kafa", "Sok", "Mlijeko" }, "Kafa"),
 
-                new Question("Which is NOT OOP principle?",
-                    new List<string>{ "Encapsulation", "Inheritance", "Compilation", "Polymorphism" }, "Compilation"),
+    new Question("Koji mjesec ima 28 ili 29 dana?",
+        new List<string>{ "Januar", "Februar", "Mart", "April" }, "Februar"),
 
-                new Question("What does virtual allow?",
-                    new List<string>{ "Overriding", "Hiding", "Locking", "Sealing" }, "Overriding"),
+    new Question("Šta koristimo za mjerenje vremena?",
+        new List<string>{ "Vaga", "Sat", "Metar", "Termometar" }, "Sat"),
 
-                new Question("Which stores true/false?",
-                    new List<string>{ "int", "string", "bool", "double" }, "bool"),
+    new Question("Koja životinja laje?",
+        new List<string>{ "Mačka", "Pas", "Krava", "Ovca" }, "Pas"),
 
-                new Question("Which keyword creates object?",
-                    new List<string>{ "new", "create", "make", "alloc" }, "new"),
+    new Question("Koja boja nastaje miješanjem plave i žute?",
+        new List<string>{ "Crvena", "Zelena", "Ljubičasta", "Narandžasta" }, "Zelena"),
 
-                new Question("Which loop runs at least once?",
-                    new List<string>{ "for", "while", "do-while", "foreach" }, "do-while"),
+    new Question("Koliko minuta ima jedan sat?",
+        new List<string>{ "30", "45", "60", "90" }, "60"),
 
-                new Question("What does abstract class mean?",
-                    new List<string>{ "Cannot be inherited", "Cannot be instantiated", "Is sealed", "Is static" },
-                    "Cannot be instantiated"),
+    new Question("Šta jedemo za doručak?",
+        new List<string>{ "Krevet", "Hljeb", "Cipele", "Kamen" }, "Hljeb"),
 
-                new Question("Which keyword stops a loop?",
-                    new List<string>{ "exit", "return", "stop", "break" }, "break"),
+    new Question("Koja životinja mjauče?",
+        new List<string>{ "Pas", "Krava", "Mačka", "Konj" }, "Mačka"),
 
-                new Question("Which collection has dynamic size?",
-                    new List<string>{ "array", "list", "enum", "struct" }, "list")
-            };
+    new Question("Koje godišnje doba je najhladnije?",
+        new List<string>{ "Ljeto", "Proljeće", "Jesen", "Zima" }, "Zima")
+};
         }
 
         public void ShuffleQuestions()
