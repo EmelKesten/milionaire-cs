@@ -134,7 +134,6 @@ namespace QuizConsoleApp
 
         public string Name { get; set; }
 
-        // ===== GETTER & SETTER + PROPERTY =====
         public int Score
         {
             get { return score; }
